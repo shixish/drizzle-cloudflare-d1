@@ -1,0 +1,9 @@
+name = "drizzle-cloudflare-d1"
+main = "src/index.ts"
+compatibility_date = "2023-04-23"
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "drizzle"
+database_id = "9a823cfc-976c-49cc-90c2-ab3b4e4a0162"
+preview_database_id = "86fae29f-7612-4ded-86b7-ebba712c1b2b"
